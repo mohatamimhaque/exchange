@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Ubuntu&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,200&family=Nunito+Sans:wght@300&family=Ubuntu&display=swap');
 *{
     margin:0;
     font-family: 'Nunito Sans', sans-serif;
@@ -42,11 +41,7 @@ body{
 .menubar .leftbox .logo a{
     color:var(--white);
     font-size: 35px;
-    font-family: 'Karla', sans-serif;
-
-}
-.menubar .leftbox .logo a strong{
-    font-family: 'Nunito Sans', sans-serif;
+    font-weight:600;
 
 }
 .menu-icon{
