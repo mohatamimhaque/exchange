@@ -1,0 +1,109 @@
+@media screen and (max-width: 1200px){
+    .details{
+        width: 95%;  
+    }    
+    .details .exchange{
+        width:65%;
+    }
+    .details .sidebar{
+        width:26%;
+    }
+    .contact .self{
+        width:40%
+    }
+    
+   
+    
+}
+@media screen and (max-width: 1000px){
+    .details{
+        width: 95%;  
+    }    
+    .details .exchange{
+        width:60%;
+    }
+   
+   .details .sidebar{
+    width:30%;
+}
+.contact .information .self{
+    width: 45%;
+
+}
+.contact .message{
+    width:48%
+}
+}
+@media screen and (max-width: 990px){
+    .exchange-start .send,
+    .exchange-start .received{
+        width:100%;
+    }
+    .exchange-start .flex{
+        display: block;
+    }
+    .exchange-start .button{
+        margin:20px;
+        margin-left: 30%;
+      
+    
+    }
+}
+@media screen and (max-width: 800px){
+    .details{
+        width: 80%; 
+        display: block; 
+    }    
+    .details .exchange{
+        width:100%;
+    }
+   
+   .details .sidebar{
+    width:100%;
+    margin: 0;
+    margin-top: 25px;
+}
+.shortcut{
+    margin-top: 80px;
+    text-transform: capitalize;
+    padding:50px;
+    display: block;
+    background-image:linear-gradient(to right,#13D6BC, #68ADFF);
+}
+
+
+}
+
+
+@media screen and (max-width: 760px){
+    .exchange-start .button{
+        margin:20px;
+        margin-left: 25%;
+      
+    
+    }
+}
+@media screen and (max-width:576px){
+    .exchange-start .button{
+        margin:20px;
+        margin-left: 20%;
+
+    }
+    .contact .information{
+        display: block;
+    }
+    .contact .information .self{
+        width: 100%;
+        margin-bottom: 25px;
+    
+    }
+    .contact .message{
+        width:100%;
+    }
+    .contact .message .name{
+        margin-top: 20px;
+    }
+    .contact .information hr{
+        margin-right: 15px;
+    }
+}
