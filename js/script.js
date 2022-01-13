@@ -23,3 +23,9 @@ var item = document.querySelector(".language-item");
 icon.onclick = function(){
    item.classList.toggle("language-list")
 }
+var menuIcon = document.querySelector(".menuicon");
+var menuItem = document.querySelector(".menuitem");
+
+menuIcon.onclick = function(){
+  menuItem.classList.toggle("menuitem2")
+}
