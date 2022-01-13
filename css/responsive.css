@@ -11,10 +11,25 @@
     .contact .self{
         width:40%
     }
-    
+
    
     
 }
+@media screen and (max-width: 1100px){
+    .menubar .leftbox{
+        width:55%;
+        margin-left:80px;
+    }
+        .menubar .rightbox{
+            position: relative;
+            margin:auto;
+            width:25%;
+            margin-left: 100px;
+            display: inline-block;
+            margin-right:0;
+            
+        }
+    }
 @media screen and (max-width: 1000px){
     .details{
         width: 95%;  
@@ -33,6 +48,7 @@
 .contact .message{
     width:48%
 }
+
 }
 @media screen and (max-width: 990px){
     .exchange-start .send,
@@ -43,13 +59,88 @@
         display: block;
     }
     .exchange-start .button{
-        margin:20px;
-        margin-left: 30%;
-      
+        margin-left: 22%;
+        width:50%;
+        
+
+    }
+    .menubar .leftbox{
+        margin-left: 50px;
+    }
+    .menubar{
+        padding-right: 0;;
+        margin:0
+    }
     
+}
+@media screen and (max-width: 900px){
+    .details table td:nth-child(6){
+        display:none;
+    }
+}
+@media screen and (max-width: 850px){
+    .menubar .rightbox ion-icon{
+        display:none;
+    }
+    .menubar .rightbox .language-change ion-icon{
+        display:block;
     }
 }
 @media screen and (max-width: 800px){
+    .notice .menuicon{
+        width:25px;
+        display: inline-block;
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+        padding:2px 12px;
+    
+    }
+    .notice .bar1, .bar2, .bar3 {
+        width: 25px;
+        height: 4px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.2s;
+        opacity: 100%;
+        border-radius: 5px;
+        box-shadow:0 0 1px rgb(46, 44, 44)
+    }
+    .menubar .leftbox{
+        width:40%;
+    }
+    .menubar .leftbox .menuitem{
+       display: none;
+    }
+    .menubar .leftbox .menuitem2{
+        display: grid;
+        position: absolute;
+        background-color: white;
+        padding:10px;
+        border-radius: 0px;
+        margin-top: 109px;
+        margin-left: -59px;
+        transition: 0.5s;
+        min-height: 150px;
+        border-radius: 2px;
+        width:150px;
+    }
+    .menubar .leftbox .menuitem2 li{
+        padding:5px 
+    }
+    .menubar .leftbox .menuitem2 li a{
+        color:black
+    }
+    .menubar .leftbox .menuitem2 li a:hover{
+       opacity: 75%;
+    }
+
+
+    .menubar .rightbox ion-icon{
+        display:block;
+    }
+    .menubar .rightbox{
+        display: flex;
+    }
     .details{
         width: 80%; 
         display: block; 
@@ -62,7 +153,9 @@
     width:100%;
     margin: 0;
     margin-top: 25px;
+
 }
+
 .shortcut{
     margin-top: 80px;
     text-transform: capitalize;
@@ -82,12 +175,29 @@
       
     
     }
+    .menubar .rightbox{
+        display: flex;
+        margin-left:0
+    }
 }
 @media screen and (max-width:576px){
-    .exchange-start .button{
-        margin:20px;
-        margin-left: 20%;
+    .menubar .rightbox{
+        position: relative;
+        margin:auto;
+        width:25%;
+        margin-left: 100px;
+        display: inline-block;
+        margin-right:0;
+        margin-left: 20px;
+        
+    }
+  
 
+    .exchange-start .button i{
+        display: none;
+    }
+    .details table :nth-child(5){
+        display:none
     }
     .contact .information{
         display: block;
@@ -103,7 +213,20 @@
     .contact .message .name{
         margin-top: 20px;
     }
+    
     .contact .information hr{
         margin-right: 15px;
     }
+    marquee{
+        display: none;
+    }
+  
+.notice .worktime{
+    width:100%;
+    background-color: var(--blue);
+    padding:8px;
+    font-size: 14px;
+    color: var(--white);
+}
+    
 }
