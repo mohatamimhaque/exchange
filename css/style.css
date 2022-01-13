@@ -25,7 +25,6 @@ body{
     display:flex;
 }
 .menubar{
-    position: relative;
     display: flex;
     background-color: var(--black1);
     padding:8px;
@@ -226,13 +225,12 @@ body{
     padding: 10px;
     text-align: center;
     display: inline-block;
-    width: 90%;
+    width: 40%;
     cursor: pointer;
     font-size: 18px;
     border-radius: 5px;
-    width:200px;
     margin:20px;
-    margin-left: 40%;
+    margin-left: 28%;
     transition: .2s;
   
 
@@ -257,7 +255,8 @@ body{
     margin-bottom: 100px;
     padding:50px;
     background:var(--white);
-
+    flex-wrap: wrap;
+    position: relative;
     display:grid;
     grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
     grid-column-gap: 16px;
@@ -265,6 +264,8 @@ body{
 }
 .service .service-content{
     display:flex;
+    position: relative;
+
 }
 .service .service-content i,
 .service .service-content ion-icon{
@@ -279,6 +280,7 @@ body{
     font-size: 13px;
     font-weight: 500;
     text-align: justify;
+
 }
 
 

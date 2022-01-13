@@ -58,12 +58,6 @@
     .exchange-start .flex{
         display: block;
     }
-    .exchange-start .button{
-        margin-left: 22%;
-        width:50%;
-        
-
-    }
     .menubar .leftbox{
         margin-left: 50px;
     }
@@ -169,12 +163,6 @@
 
 
 @media screen and (max-width: 760px){
-    .exchange-start .button{
-        margin:20px;
-        margin-left: 25%;
-      
-    
-    }
     .menubar .rightbox{
         display: flex;
         margin-left:0
